@@ -1,3 +1,5 @@
+/*思路：二分查找的升级版。是剑指offer的一道原题，书中用的递归实现，我这里是循环实现。
+上界的确定即找到的值和target相等且它的前一个不和target相等，那么该值就是上界。*/
 class Solution {
 public:
     int findlow(int A[],int n,int target){

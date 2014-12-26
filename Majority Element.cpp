@@ -20,7 +20,8 @@ public:
 	}
 };
 
-//法2：由于数组中有一个数字出现的次数大于数组长度的一半，所以两两抵消不同的数字，最终剩下的即为解。
+/*法2：由于数组中有一个数字出现的次数大于数组长度的一半，所以两两抵消不同的数字，最终剩下的即为解。
+candidate:候选数字*/
 class Solution {
 public:
 	int majorityElement(vector<int> &num) {

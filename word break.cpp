@@ -6,7 +6,7 @@
 dp[0]=true
 dp[1]=true
 dp[2]=true
-dp[3]=false，同时需要确定0-3,1-3，2-3之间是否能在dict中找到，若找到则dp[3]=true
+dp[3]=false，同时需要确定1-3,2-3，3-3(d本身)之间是否能在dict中找到，若找到其中一个，则dp[3]=true
 */
 class Solution {
 public:
